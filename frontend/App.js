@@ -257,21 +257,21 @@ function translateLocationToUrdu(city, country) {
 
 const ROMAN_URDU_TTS_LINES = [
   "Aapke jawab ko awaz mein badla ja raha hai...",
-  "KisaanAI voice response tayyar kar raha hai...",
+  "کسان دوست voice response tayyar kar raha hai...",
   "Awaz ko clear aur natural banaya ja raha hai...",
   "Bas ek lamha, jawab sunanay ke liye tayyar hai..."
 ];
 
 const URDU_SCRIPT_TTS_LINES = [
   "آپ کے جواب کو آواز میں بدلا جا رہا ہے...",
-  "کسان AI وائس ریسپانس تیار کر رہا ہے...",
+  "کسان دوست وائس ریسپانس تیار کر رہا ہے...",
   "آواز کو صاف اور قدرتی بنایا جا رہا ہے...",
   "بس ایک لمحہ، جواب سنانے کے لیے تیار ہے..."
 ];
 
 const ENGLISH_TTS_LINES = [
   "Turning your answer into voice...",
-  "KisaanAI is preparing the voice response...",
+  "کسان دوست is preparing the voice response...",
   "Making the audio clear and natural...",
   "Almost ready to play your answer..."
 ];
@@ -591,7 +591,7 @@ export default function App() {
     console.log("User message appended");
 
     setLoading(true);
-    setLoadingMessage(isVoice ? "آواز سمجھ رہے ہیں..." : "کسان AI آپ کی فصل کا مسئلہ جانچ رہا ہے...");
+    setLoadingMessage(isVoice ? "آواز سمجھ رہے ہیں..." : "کسان دوست آپ کی فصل کا مسئلہ جانچ رہا ہے...");
     setError(null);
     setResult(null);
 
@@ -716,7 +716,7 @@ export default function App() {
         <StatusBar barStyle="dark-content" backgroundColor="#f2f0ec" />
         <View style={styles.homeContainer}>
           <View style={styles.homeHeader}>
-            <Text style={styles.homeTitle}>🌾 کسان AI</Text>
+            <Text style={styles.homeTitle}>🌾 کسان دوست</Text>
             <Text style={styles.homeSubtitle}>آپ کا زرعی مددگار</Text>
           </View>
 
@@ -757,7 +757,7 @@ export default function App() {
           </View>
 
           <Text style={styles.homeFooter}>
-            کسان AI v1.0 — پاکستانی کسانوں کے لیے 🇵🇰
+            کسان دوست v1.0 — پاکستانی کسانوں کے لیے 🇵🇰
           </Text>
         </View>
       </SafeAreaView>
@@ -819,7 +819,7 @@ export default function App() {
         </TouchableOpacity>
         <View style={styles.chatHeaderCenter}>
           <Text style={styles.chatHeaderTitle}>💬 گفتگو</Text>
-          <Text style={styles.chatHeaderSub}>کسان AI سے مدد لیں</Text>
+          <Text style={styles.chatHeaderSub}>کسان دوست سے مدد لیں</Text>
         </View>
         {/* Clear Chat */}
         <TouchableOpacity
@@ -851,7 +851,7 @@ export default function App() {
             <View style={styles.emptyChat}>
               <Text style={styles.emptyChatIcon}>🌾</Text>
               <Text style={styles.emptyChatText}>
-                کسان AI میں خوش آمدید!
+                کسان دوست میں خوش آمدید!
               </Text>
               <Text style={styles.emptyChatSub}>
                 اپنی فصل کا مسئلہ نیچے لکھیں یا تصویر بھیجیں

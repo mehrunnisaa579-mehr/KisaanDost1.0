@@ -1,33 +1,34 @@
-# Environments
+# Secrets — NEVER commit these
+backend/.env
 .env
 *.env
-backend/.env
-frontend/.env
+!.env.example
 
-# Dependencies
-node_modules/
-frontend/node_modules/
-
-# Python cache
-__pycache__/
+# Python
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Generated Audio Files
-backend/static/audio/
-backend/static/audio/*
-*.mp3
+# Node / Expo
+node_modules/
+frontend/node_modules/
+frontend/.expo/
+frontend/.expo-shared/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Generated runtime files (TTS audio output, must not be committed)
+backend/static/audio/*.wav
+backend/static/audio/*.mp3
+backend/static/audio/*.m4a
 *.wav
+*.mp3
 *.m4a
 
-# Expo / Builds
-.expo/
-dist/
-build/
-android/
-ios/
-
-# OS Files
+# OS junk
 .DS_Store
 Thumbs.db

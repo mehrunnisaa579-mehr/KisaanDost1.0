@@ -31,7 +31,7 @@ const ENGLISH_LINES = [
 const ROMAN_URDU_VOICE_LINES = [
   "Aapki awaz suni ja rahi hai...",
   "Voice note ko alfaaz mein badla ja raha hai...",
-  "KisaanAI maslay ko samajh raha hai...",
+  "کسان دوست maslay ko samajh raha hai...",
   "Fasal, mausam aur mashwara check ho raha hai...",
   "Aapke liye jawab tayyar ho raha hai...",
   "Voice reply bas tayyar hai..."
@@ -40,7 +40,7 @@ const ROMAN_URDU_VOICE_LINES = [
 const URDU_SCRIPT_VOICE_LINES = [
   "آپ کی آواز سنی جا رہی ہے...",
   "وائس نوٹ کو الفاظ میں بدلا جا رہا ہے...",
-  "کسان AI مسئلہ سمجھ رہا ہے...",
+  "کسان دوست مسئلہ سمجھ رہا ہے...",
   "فصل، موسم اور مشورہ چیک ہو رہا ہے...",
   "آپ کے لیے جواب تیار ہو رہا ہے...",
   "وائس جواب بس تیار ہے..."
@@ -49,7 +49,7 @@ const URDU_SCRIPT_VOICE_LINES = [
 const ENGLISH_VOICE_LINES = [
   "Listening to your voice note...",
   "Turning your voice into words...",
-  "KisaanAI is understanding the issue...",
+  "کسان دوست is understanding the issue...",
   "Checking crop, weather, and advice...",
   "Preparing your answer...",
   "Voice reply is almost ready..."
