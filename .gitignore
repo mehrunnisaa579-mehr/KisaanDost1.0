@@ -2,7 +2,11 @@
 backend/.env
 .env
 *.env
+*.env.*
+.env.local
+.env*.local
 !.env.example
+
 
 # Python
 backend/venv/
